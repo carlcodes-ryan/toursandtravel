@@ -52,12 +52,12 @@ export default function Contact() {
                     <div className="mt-1">
                       <h4 className="font-bold text-lg">Instagram</h4>
                       <a 
-                        href="https://instagram.com/janeltours" 
+                        href="https://instagram.com/travelearntours" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-brand-light font-medium mt-1 hover:text-white transition-colors block"
                       >
-                        @janeltours
+                        @travelearntours
                       </a>
                     </div>
                   </div>
@@ -101,7 +101,7 @@ export default function Contact() {
                 </a>
 
                 <a 
-                  href="https://instagram.com/janeltours" 
+                  href="https://instagram.com/travelearntours" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="bg-white p-8 rounded-2xl shadow-sm border border-pink-100 hover:shadow-xl hover:-translate-y-2 transition-all group flex flex-col items-center text-center gap-4"

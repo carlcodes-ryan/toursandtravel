@@ -28,7 +28,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             <a href="#home" className={`text-2xl font-black tracking-tighter ${isScrolled ? 'text-gray-900' : 'text-white'}`}>
-              <img src="/images/Logo.jpg" alt="Janel Tours and Travels Logo" className="h-10 w-auto rounded" />
+              <img src="/images/Logo.jpg" alt="Travelearn Tours Logo" className="h-10 w-auto rounded" />
             </a>
           </div>
           

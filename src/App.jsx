@@ -127,7 +127,7 @@ export default function App() {
   const videoRef = useRef(null);
 
   // Preloaded inquiry message for WhatsApp
-  const defaultInquiryMessage = "Hi Janel Tours and Travels, I'd like to enquire about planning a trip with you. Please share your available itineraries, dates and pricing. Thank you!";
+  const defaultInquiryMessage = "Hi Travelearn Tours, I'd like to enquire about planning a trip with you. Please share your available itineraries, dates and pricing. Thank you!";
 
   // Auto-play and loop synchronization
   useEffect(() => {
@@ -242,7 +242,7 @@ export default function App() {
 
   // Plan This Trip click -> directly launches WhatsApp with preloaded trip inquiry
   const handlePlanTrip = (trip) => {
-    const msg = `Hi Janel Tours and Travels, I would like to enquire about the ${trip.name} (${trip.len}) package. Please send me itinerary details and pricing. Thank you!`;
+    const msg = `Hi Travelearn Tours, I would like to enquire about the ${trip.name} (${trip.len}) package. Please send me itinerary details and pricing. Thank you!`;
     const url = `https://api.whatsapp.com/send/?phone=254753632184&text=${encodeURIComponent(msg)}`;
     window.open(url, '_blank', 'noopener,noreferrer');
   };
@@ -290,13 +290,13 @@ export default function App() {
         <div className="wrap hero-in">
           {/* Top Navigation */}
           <nav aria-label="Main Navigation">
-            <a className="brand" href="#top" aria-label="Janel Tours and Travels home">
+            <a className="brand" href="#top" aria-label="Travelearn Tours home">
               <img
                 src="/images/Logo.jpg"
-                alt="Janel Tours Logo"
+                alt="Travelearn Tours Logo"
                 className="brand-avatar"
               />
-              <span>Janel Tours</span>
+              <span>Travelearn Tours</span>
             </a>
             <div className="navlinks">
               <a href="#trips">Trips</a>
@@ -690,7 +690,7 @@ export default function App() {
                     📞 Prefer a call? <a href="tel:+254753632184" style={{ color: 'var(--accent)', fontWeight: 600 }}>0753 632 184</a>
                   </p>
                   <p style={{ margin: 0, fontSize: '0.95rem', color: 'var(--muted)' }}>
-                    📸 Instagram: <a href="https://instagram.com/janeltours" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', fontWeight: 600 }}>@janeltours</a>
+                    📸 Instagram: <a href="https://instagram.com/travelearntours" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', fontWeight: 600 }}>@travelearntours</a>
                   </p>
                 </div>
               </div>
@@ -741,15 +741,15 @@ export default function App() {
                 fontWeight: 800,
                 fontSize: '1.5rem'
               }}
-              aria-label="Janel Tours and Travels home"
+              aria-label="Travelearn Tours home"
             >
               <img
                 src="/images/Logo.jpg"
-                alt="Janel Tours Logo"
+                alt="Travelearn Tours Logo"
                 className="brand-avatar"
                 style={{ width: '40px', height: '40px' }}
               />
-              <span>Janel Tours and Travels</span>
+              <span>Travelearn Tours</span>
             </a>
             <p>
               Group trips, customised vacation packages and weekend getaways from Nairobi to the world.
@@ -766,7 +766,7 @@ export default function App() {
             <div style={{ marginTop: '10px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
               <a
                 className="ig"
-                href="https://api.whatsapp.com/send/?phone=254753632184&text=Hello%20Janel%20Tours"
+                href="https://api.whatsapp.com/send/?phone=254753632184&text=Hello%20Travelearn%20Tours"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -780,15 +780,15 @@ export default function App() {
               </a>
               <a
                 className="ig"
-                href="https://instagram.com/janeltours"
+                href="https://instagram.com/travelearntours"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Instagram: @janeltours
+                Instagram: @travelearntours
               </a>
             </div>
             <p style={{ marginTop: '18px', fontSize: '0.85rem', color: 'var(--muted)' }}>
-              © {new Date().getFullYear()} Janel Tours and Travels. All rights reserved.
+              © {new Date().getFullYear()} Travelearn Tours. All rights reserved.
             </p>
           </div>
         </div>

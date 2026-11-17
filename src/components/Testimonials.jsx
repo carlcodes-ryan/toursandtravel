@@ -5,7 +5,7 @@ export default function Testimonials() {
     {
       name: "Sarah M.",
       trip: "Maasai Mara Weekend",
-      text: "Janel Tours and Travels made our weekend getaway absolutely seamless. The attention to detail and the warm community vibe was unmatched. Highly recommended!"
+      text: "Travelearn Tours made our weekend getaway absolutely seamless. The attention to detail and the warm community vibe was unmatched. Highly recommended!"
     },
     {
       name: "James K.",

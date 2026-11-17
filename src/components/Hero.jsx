@@ -33,7 +33,7 @@ export default function Hero() {
             Explore Trips <ArrowRight size={20} />
           </a>
           <a 
-            href="https://wa.me/254753632184?text=Hello%20Janel%20Tours%20and%20Travels,%20I'd%20like%20to%20enquire%20about%20a%20trip!" 
+            href="https://wa.me/254753632184?text=Hello%20Travelearn%20Tours,%20I'd%20like%20to%20enquire%20about%20a%20trip!" 
             target="_blank" 
             rel="noopener noreferrer"
             className="w-full sm:w-auto px-8 py-4 rounded-full bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 text-white font-bold text-lg transition-all flex items-center justify-center gap-2 shadow-lg"

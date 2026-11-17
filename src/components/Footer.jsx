@@ -8,7 +8,7 @@ export default function Footer() {
           
           <div>
             <h3 className="text-2xl font-black tracking-tighter text-white mb-4">
-              <img src="/images/Logo.jpg" alt="Janel Tours and Travels Logo" className="h-10 w-auto rounded" />
+              <img src="/images/Logo.jpg" alt="Travelearn Tours Logo" className="h-10 w-auto rounded" />
             </h3>
             <p className="text-gray-400 font-medium leading-relaxed max-w-sm">
               Crafting unforgettable travel experiences and community adventures, from Nairobi to the world.
@@ -29,7 +29,7 @@ export default function Footer() {
             <h4 className="text-lg font-bold mb-4 text-white">Connect With Us</h4>
             <div className="flex gap-4 mb-6">
               <a 
-                href="https://instagram.com/janeltours" 
+                href="https://instagram.com/travelearntours" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center text-gray-300 hover:bg-brand hover:text-white transition-all transform hover:scale-110"
@@ -42,7 +42,7 @@ export default function Footer() {
         </div>
 
         <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4 text-gray-500 font-medium text-sm">
-          <p>&copy; {new Date().getFullYear()} Janel Tours and Travels. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Travelearn Tours. All rights reserved.</p>
           <p>Designed with ❤️ for adventurous souls.</p>
         </div>
       </div>

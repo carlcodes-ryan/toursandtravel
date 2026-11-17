@@ -43,14 +43,14 @@ export default function About() {
           <div className="lg:pl-8">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-light text-brand-dark text-sm font-bold mb-6 tracking-wide uppercase">
               <span className="w-2 h-2 rounded-full bg-brand animate-pulse"></span>
-              About Janel Tours and Travels
+              About Travelearn Tours
             </div>
             <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight">
               Travel together, <br/>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand to-yellow-500">grow together.</span>
             </h2>
             <p className="text-lg text-gray-600 mb-10 leading-relaxed font-medium">
-              At Janel Tours and Travels, we believe that the best journeys are the ones shared. 
+              At Travelearn Tours, we believe that the best journeys are the ones shared. 
               Based in Nairobi, Kenya, we are passionate about designing travel experiences 
               that bring people together—whether it's a corporate retreat, a weekend getaway 
               with friends, or a grand vacation.

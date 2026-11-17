@@ -80,7 +80,7 @@ export default function Services() {
                 </div>
 
                 <a 
-                  href={`https://wa.me/254753632184?text=Hello%20Janel%20Tours%20and%20Travels,%20I'd%20like%20to%20enquire%20about%20your%20${encodeURIComponent(pkg.title)}%20package!`}
+                  href={`https://wa.me/254753632184?text=Hello%20Travelearn%20Tours,%20I'd%20like%20to%20enquire%20about%20your%20${encodeURIComponent(pkg.title)}%20package!`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center w-full bg-brand-light text-brand font-bold py-3 rounded-xl hover:bg-brand hover:text-white transition-colors"
