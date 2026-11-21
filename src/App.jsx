@@ -105,10 +105,10 @@ const TRIPS = [
 
 const CAPS = [
   'Maasai Mara · MRA · Dawn',
-  'Diani Beach · UKA · Midday',
-  'Amboseli · ASV · Golden hour',
-  'Zanzibar · ZNZ · Sunset',
-  'Laikipia · NYK · Night'
+  'Amboseli · ASV · Wildlife Safari',
+  'Diani Beach · UKA · Midday Waters',
+  'Laikipia · NYK · Sunlit Wilderness',
+  'Zanzibar · ZNZ · Sunset Coast'
 ];
 
 export default function App() {
@@ -121,7 +121,7 @@ export default function App() {
 
   // Hero Reel state
   const [time, setTime] = useState(0);
-  const [duration, setDuration] = useState(15);
+  const [duration, setDuration] = useState(30);
   const [isPlaying, setIsPlaying] = useState(true);
   const heroRef = useRef(null);
   const videoRef = useRef(null);
@@ -183,7 +183,7 @@ export default function App() {
         if (vid && !vid.paused && vid.currentTime) {
           setTime(vid.currentTime);
         } else {
-          setTime((prev) => (prev + dt) % (duration || 15));
+          setTime((prev) => (prev + dt) % (duration || 30));
         }
       }
       animId = requestAnimationFrame(tick);
@@ -248,7 +248,7 @@ export default function App() {
   };
 
   // Active scene index & caption calculation
-  const totalDuration = duration || 15;
+  const totalDuration = duration || 30;
   const progressRatio = Math.max(0, Math.min(1, time / totalDuration));
   const sceneIdx = Math.min(CAPS.length - 1, Math.floor(progressRatio * CAPS.length));
   const currentCaption = CAPS[sceneIdx];
